@@ -9,5 +9,4 @@ def union_conjuntos(conjunto1: list, conjunto2: list) -> list:
     for elemento1 in conjunto1:
         if elemento1 not in conjunto2:
             conjunto2.append(elemento1)
-
     return conjunto2
